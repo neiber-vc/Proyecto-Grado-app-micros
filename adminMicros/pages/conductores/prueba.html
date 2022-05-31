@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="framework">Select a JS Framework</label>
+        <select id="framework">
+            <option value="1">Angular</option>
+            <option value="2">React</option>
+            <option value="3">Vue.js</option>
+            <option value="4">Ember.js</option>
+        </select>
+        <button id="btn">Get the Selected Index</button>
+        <p id="demo">mostrar</p>
+    </form>
+
+    <select id="producto" name="producto" onchange="ShowSelected(lat, lng);">
+        <option value="12">Texto One</option>
+        <option value="13">Texto Two</option>
+    </select>
+
+    <input type="text" id="lat">
+    <input type="text" id="lng">
+    <button type="button" onclick="mostrar()">mostrar</button>
+    
+    <!-- <select id="tipoatencion" onchange="ShowSelected();" class="seleccion" name="tipoatencion">
+        <option value="Seleccion">Selecciona un tipo de atención</option>
+        <option value="pu">Público</option>
+        <option value="ca">Caja</option>
+        <option value="otros">Otros servicios</option>
+    </select> -->
+
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+
+  <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+      apiKey: "AIzaSyDQO8g1yvydXhQQsujojhc5Nbb5_SEIIvA",
+      authDomain: "microsrutas.firebaseapp.com",
+      projectId: "microsrutas",
+      storageBucket: "microsrutas.appspot.com",
+      messagingSenderId: "146110367606",
+      appId: "1:146110367606:web:43e97e1c453a7ce249dc57"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+  </script>
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+  <script src="../../js/prueba.js"></script>
+</body>
+</html>
