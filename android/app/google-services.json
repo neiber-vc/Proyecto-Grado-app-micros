@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "146110367606",
+    "project_id": "microsrutas",
+    "storage_bucket": "microsrutas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146110367606:android:b1863f94c48ca98249dc57",
+        "android_client_info": {
+          "package_name": "com.nvc.app_micro_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146110367606-etqnsapjdrodm1lt65j9mi3b76mk6ri8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nvc.app_micro_flutter",
+            "certificate_hash": "988b042407f3157e98b28bb3d997fa2f752b29c0"
+          }
+        },
+        {
+          "client_id": "146110367606-uqarf9pkuds3p67ad09kjsvudlt9svo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsaIHkwSSA8TMD691_WsdiH_cPxJ7biOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146110367606-uqarf9pkuds3p67ad09kjsvudlt9svo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
